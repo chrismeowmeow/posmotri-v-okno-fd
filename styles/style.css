@@ -77,6 +77,9 @@ ol {
   width: 390px;
   height: 502px;
   overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 
@@ -98,12 +101,6 @@ ol {
   display: flex;
   flex-direction: column;
   
-}
-
-.content__list-container {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
 }
 
 .content__video-card {
