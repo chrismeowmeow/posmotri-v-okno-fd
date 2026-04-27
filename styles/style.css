@@ -85,7 +85,6 @@ ol {
   gap: 30px;
 }
 
-
 .result__video-container {
   width: 711px;
   height: 386px;
@@ -120,7 +119,6 @@ ol {
   flex-direction: column;
   gap: 4px;
 }
-
 
 .title {
   font-weight: 700;
@@ -197,9 +195,9 @@ ol {
   width: 225px;
 }
 
-.search-form__label:has(:focus-visible) { 
+.search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
-  outline-offset: 2px; 
+  outline-offset: 2px;
 }
 
 .search-form__textfield::placeholder {
@@ -230,9 +228,9 @@ ol {
   text-decoration: underline;
 }
 
-.search-form__label:has(:focus-visible) { 
-  outline: 1px solid #fff; 
-  outline-offset: 2px; 
+.search-form__label:has(:focus-visible) {
+  outline: 1px solid #fff;
+  outline-offset: 2px;
 }
 
 .button {
